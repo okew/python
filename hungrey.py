@@ -1,6 +1,8 @@
 # python
 hungrey=input("Are you hungrey?")
 if hungrey=="yes":
-    print("Get something and eat.")
-else:
-        print("Do your home work.")
+    print("Go home")
+elif hungrey=="no":
+    print("Go to class.")
+else:    
+    print("unexpected response!")
